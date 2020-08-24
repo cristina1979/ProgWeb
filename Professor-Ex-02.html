@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>P R O F E S S O R</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+
+
+  <!-- DataTables -->
+  <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="#" class="brand-link">
+      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">Sistema Acadêmico</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+      <!-- Sidebar Menu -->
+       <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="Aluno-Ex-02.html" class="nav-link">
+              <i class="nav-icon fas fa-user-graduate"></i>
+              <p>Alunos</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="Professor-Ex-02.html" class="nav-link">
+              <i class="nav-icon fas fa-chalkboard-teacher"></i>
+              <p>Professores</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="Curso-Ex-02.html" class="nav-link">
+              <i class="nav-icon fas fa-school"></i>
+              <p>Curso</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="Disciplina-Ex-02.html" class="nav-link">
+              <i class="nav-icon fas fa-mobile-alt"></i>
+              <p>Disciplinas</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header bg-warning mb-3">
+            <h3 class="card-title text-white">Professor</h3>
+              </div>
+    <!-- /.card-header -->
+              <div class="card-body">
+                <a class="btn btn-dark" href="Professor-Form-Ex-02.html" role="button">+ Novo </a>
+                 <p> </p>
+                <table id="example1" class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Matrícula</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>Zaratrusta Camões</td>
+                    <td> 99988877700 </td>
+                    <td> 112126-6 </td>
+                    <td>(61) 99945-9218</td>
+                    <td>zaratrusta@hotmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>Giovanni Bocaccio</td>
+                    <td> 44455566699 </td>
+                    <td> 113127-9</td>
+                    <td>(61) 99945-9218</td>
+                    <td>giovanni@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>Milan Kundera</td>
+                    <td> 33300077766 </td>
+                    <td> 114567-0</td>
+                    <td>(61) 99945-9218</td>
+                    <td>kundera@yahoo.com.br</td>
+                  </tr>
+                  <tr>
+                    <td> Ray Bradbury </td>
+                    <td> 77733311122 </td>
+                    <td> 117985-8 </td>
+                    <td> (61) 99945-9218 </td>
+                    <td> bradbury@uol.com.br </td>
+                  </tr>
+                     <tr>
+                    <td> Machado de Assis </td>
+                    <td> 88865409833 </td>
+                    <td> 117985-8 </td>
+                    <td> (61) 99945-9218 </td>
+                    <td> assis@uol.com.br </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- page script -->
+<script>
+  $(function () {
+    $("#example1").DataTable({
+      "responsive": true,
+      "autoWidth": false,
+    });
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+      "responsive": true,
+    });
+  });
+</script>
+
+</body>
+</html>
